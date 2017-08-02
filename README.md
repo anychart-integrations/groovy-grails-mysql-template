@@ -7,7 +7,7 @@ This example shows how to use AnyChart library with the Groovy programming langu
 
 ## Running
 
-To use this sample you must have Groovy, Gradle, Grails installed on your computer;
+To use this sample you must have Groovy, Gradle, Grails installed on your computer.
 You can use SDKMAN to install them:
 ```
 $ curl -s get.sdkman.io | bash
@@ -16,7 +16,7 @@ $ sdk install groovy
 $ sdk install gradle
 $ sdk install grails
 ```
-Also you must have MySQL installed and running (if not please check out [MySQL Download page](https://dev.mysql.com/downloads/installer/) and follow [these instructions]( http://dev.mysql.com/doc/refman/5.7/en/installing.html).
+Also you must have MySQL installed and running. If not, please check out [MySQL Download page](https://dev.mysql.com/downloads/installer/) and follow [these instructions]( http://dev.mysql.com/doc/refman/5.7/en/installing.html).
 
 To check your installations, run the following command in the command line:
 ```
@@ -25,7 +25,7 @@ Groovy Version: 2.4.12 JVM: 1.8.0_131 Vendor: Oracle Corporation OS: Linux
 $ gradle -version
 ------------------------------------------------------------
 Gradle 4.0.2
-..
+...
 $ grails -version
 | Grails Version: 3.3.0
 | Groovy Version: 2.4.11
@@ -51,7 +51,7 @@ Set up MySQL database, use `-u -p` flags to provide username and password:
 $  mysql < database_backup.sql
 ```
 
-Run template:
+Run application:
 ```
 $ grails run-app
 ```
@@ -62,7 +62,7 @@ Open browser at http://localhost:8080/
 Your workspace should look like:
 ```
 groovy-grails-mysql-template/
-    ... some stuff created by grails new-app
+    ... some stuff created by 'grails create-app groovy-grails-mysql-template'
     grails-app/
         assets/
             ...
@@ -70,20 +70,20 @@ groovy-grails-mysql-template/
                 chart.css   # css style
         conf/
             ...
-            application.yml # base application and MySQL database settings
+            application.yml   # base application and MySQL database settings
         controllers/
             groovy.grails.mysql.template/
-                ChartController.groovy # controller to display chart
-                UrlMappings.groovy # app routes
+                ChartController.groovy   # controller to display chart
+                UrlMappings.groovy   # app routes
         domain/
             groovy.grails.mysql.template/
-                Fruit.groovy # base model
+                Fruit.groovy   # base model
         ...
         views/
             chart/
-                index.gsp # html template for chart displaying
+                index.gsp   # html template for chart displaying
     build.gradle #gradle settings
-    database_backup.sql # MySQL database dump
+    database_backup.sql   # MySQL database dump
     gradle.properties
     gradlew
     gradlew.bat
