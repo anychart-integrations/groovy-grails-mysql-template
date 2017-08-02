@@ -1,8 +1,9 @@
 [<img src="https://cdn.anychart.com/images/logo-transparent-segoe.png?2" width="234px" alt="AnyChart - Robust JavaScript/HTML5 Chart library for any project">](https://anychart.com)
+
 Groovy Grails basic template
 =========================
 
-This example shows how to use Anychart library with the Groovy programming language, Grails framework and MySQL database.
+This example shows how to use AnyChart library with the Groovy programming language, Grails framework and MySQL database.
 
 ## Running
 
@@ -15,7 +16,7 @@ $ sdk install groovy
 $ sdk install gradle
 $ sdk install grails
 ```
-Also you must have MySQL installed and running (if not please check out https://dev.mysql.com/downloads/installer/ and follow instructions http://dev.mysql.com/doc/refman/5.7/en/installing.html)
+Also you must have MySQL installed and running (if not please check out [MySQL Download page](https://dev.mysql.com/downloads/installer/) and follow [these instructions]( http://dev.mysql.com/doc/refman/5.7/en/installing.html).
 
 To check your installations, run the following command in the command line:
 ```
@@ -45,7 +46,7 @@ Navigate to the repository folder:
 $ cd groovy-grails-mysql-template
 ```
 
-Set up MySQL database, use -u -p flags to provide username and password:
+Set up MySQL database, use `-u -p` flags to provide username and password:
 ```
 $  mysql < database_backup.sql
 ```
