@@ -99,7 +99,7 @@ Language - [Groovy](http://groovy-lang.org/)<br />
 Framework - [Grails](https://grails.org/)<br />
 Build tool - [Gradle](https://gradle.org/)<br />
 Database - [MySQL](https://www.mysql.com/)<br />
-Database mapping [GORM](http://gorm.grails.org/latest/)<br />
+Database mapping - [GORM](http://gorm.grails.org/latest/)<br />
 
 ## Further Learning
 * [Documentation](https://docs.anychart.com)
